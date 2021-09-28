@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Susie",
+      "dateJoined": "1630513838389",
+      "email": "susie.stanley3@yahoo.com"
+    },
+    {
+      "id": "2",
+      "name": "Brenda",
+      "dateJoined": "1630513838389",
+      "email": "brenda@yahoo.com"
+    },
+    {
+      "id": "333",
+      "name": "Susie Q",
+      "dateJoined": "1630513838389",
+      "email": "susie@yahoo.com"
+    }
+  ],
+  "posts": [
+    {
+      "timestamp": "2021-09-11",
+      "concept": "My First Practice Post",
+      "entry": "This is my very first journal entry using JSON database",
+      "mood": "Happy",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "timestamp": "2021-09-12",
+      "concept": "Working on Holiday Road group project",
+      "entry": "I'm feeling inspired and energized today! I'm really enjoying learning all the ways javascript powers our project and I love figuring out a way to solve the challenges this assignment presents. New things I've learned from googling this weekend: modal pop-ups, hiding elements until needed, more about flex properties, APIs, and I got a little more clarity on ERD's by helping a fellow student. Overall, great weekend! Excited for the week ahead.",
+      "mood": "Excited",
+      "userId": "333"
+    },
+    {
+      "timestamp": "2021-09-20",
+      "concept": "This Is Working!",
+      "entry": "Now I just have to figure out how to reset these values after I hit submit LOL... I'll tackle it tomorrow because it's late and I have school tomorrow morning. Goodnight!",
+      "mood": "Content",
+      "userId": 333,
+      "id": 3
+    },
+    {
+      "timestamp": "2021-09-20",
+      "concept": "Last One Before Bed",
+      "entry": "One more to see if mood is capitalized or not : )",
+      "mood": "Tired",
+      "userId": 333,
+      "id": 4
+    },
+    {
+      "timestamp": "2021-09-21",
+      "concept": "Learned To Edit & Cancel",
+      "entry": "We learned how to add Edit, Cancel, and Update buttons to another project so I'm going to start playing with that tonight to add it here on my journal. ",
+      "mood": "Excited",
+      "userId": 333,
+      "id": 5
+    },
+    {
+      "timestamp": 1632193406087,
+      "concept": "test",
+      "entry": "try again",
+      "mood": "Inspired",
+      "userId": 333,
+      "id": 7
+    },
+    {
+      "timestamp": 1632193593641,
+      "concept": "testing testing",
+      "entry": "write something funny",
+      "mood": "Excited",
+      "userId": 333,
+      "id": 8
+    },
+    {
+      "timestamp": 1632193685825,
+      "concept": "testing testing",
+      "entry": "write something funny",
+      "mood": "Excited",
+      "userId": 333,
+      "id": 9
+    },
+    {
+      "timestamp": 1632193703556,
+      "concept": "testing again",
+      "entry": "lets try again",
+      "mood": "Tired",
+      "userId": 333,
+      "id": 10
+    },
+    {
+      "timestamp": 1632199226612,
+      "concept": "adding a test entry changing title",
+      "entry": "changed the entry to test it out",
+      "mood": "Content",
+      "id": 11
+    },
+    {
+      "timestamp": 1632201399350,
+      "concept": "Lets change another one",
+      "entry": "I'm having a hard time coming up with ideas of what to write",
+      "mood": "Happy",
+      "id": 12
+    },
+    {
+      "timestamp": 1632202571764,
+      "concept": "lets try this again",
+      "entry": "I'm tired and going to bed :)",
+      "mood": "Content",
+      "id": 13
+    },
+    {
+      "timestamp": 1632270589354,
+      "concept": "Deep Dive on Event Listeners",
+      "entry": "I learned a ton about event listeners over the last few days. I realized that depending on the scope of the project, you can set the listeners with a wide scope or a narrow scope depending on the context. I plan on looking over my code this week to see where I can consolidate my if statements and maybe try changing some to switch statements. It will be interesting. Wish me luck! haha",
+      "mood": "Inspired",
+      "userId": 333,
+      "id": 14
+    }
+  ],
+  "moods": []
+}

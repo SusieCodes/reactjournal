@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/cssfavicon.png">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Susie's Daily Journal</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="header__col1">
+      <img src="images/susieCodeslogo.png" alt="Susie's Journal Logo">
+    </div> <!-- closes header__col1 -->
+
+    <div class="header__col2">
+      <h2>Daily Journal</h2>
+      <nav></nav>
+    </div> <!-- closes header__col2 -->
+
+    <div class="header__col3">
+      <!-- put contact info icon here -->
+      <!-- <img src="images/headshotnobg.svg" alt="headshot of Susie" /> -->
+    </div> <!-- closes header__col3 -->
+  </header>
+
+  <main id="main">
+
+    <div id="entry-form" class="main__col1 main__spacer">
+
+    </div> <!-- closes main__col1 main__spacer -->
+
+    <div class="main__col2 main__spacer">
+
+      <h2>Recent Entries</h2>
+
+      <section class="entry__list">
+        <ul> 
+          <li><a href="#">Journal Entry Headline Here</a></li>
+          <li><a href="#">Journal Entry Headline Here</a></li>
+          <li><a href="#">Journal Entry Headline Here</a></li>
+          <li><a href="#">Journal Entry Headline Here</a></li>
+          <li><a href="#">Journal Entry Headline Here</a></li>
+        </ul>
+      </section> <!-- closes entry__list -->
+
+    </div> <!-- closes main__col2 -->
+
+    <div class="main__col3 main__spacer">
+
+      <div class="entries__list">
+        <h2>All Journal Entries</h2>
+
+        <div id="entryLog" class="post__list">
+          <!-- HTML rendered from post.js (json data)-->
+        </div> <!-- closes post__list-->
+
+      </div> <!-- closes entries__list -->
+
+    </div> <!-- closes main__col3 -->
+
+    <div id="modalId" class="modal">
+    <!-- popup modal placeholder -->
+    </div> <!-- closes modalId and modal -->
+
+  </main>
+
+  <footer>
+    <div class="footer">
+    <p>Created by Susie Stanley<br>
+    <a class="github" href="https://github.com/SusieCodes" target="_blank">Visit My GitHub</a></p>
+    <p class="copyright">&copy;2021 All Rights Reserved</p>
+    </div> <!-- closes .footer-->
+  </footer>
+
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
